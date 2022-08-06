@@ -1,0 +1,36 @@
+.design{
+    background-color: #fff0f2;
+
+    overflow-x: hidden;
+}
+.design{
+margin-top:13%;
+}
+.mylogo{
+margin-left: -63%;
+
+}
+.aboutme{
+  position: relative;
+}
+.aboutmeh1{
+    font-size: 100px;
+    color: #212121;
+    margin-bottom: 20px;
+    position: relative;
+    width: max-content;
+}
+.spancolor{
+    color:blue;
+}
+.aboutme a{
+    background-color: #212121;
+  padding: 2px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+  margin-top: 0%;
+}

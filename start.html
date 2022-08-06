@@ -5,38 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Varsha's Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="start.css" rel="stylesheet" />
+    <script src="start.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
-  <body>
+  <body class="design">
     <main>
       <div>
-        <nav class="navbar navbar-expand-md bg-danger navbar-dark mb-3">
+        <nav class="navbar navbar-expand-md fixed-top bg-danger mb-3">
+          <div class="container-md">
             <a class="navbar-brand">
-          <img
-            src="Logo.jpg"
-            alt="This is my logo"
-            height="180px"
-            width="180px"
-          />
-        </a>
-          <div  class="navbar-collapse collapse">
-            <ul>
-              <li>
-                <a>ABOUT</a>
-              </li>
-              <li>
-                <a>WORK</a>
-              </li>
-              <li>
-                <a>PROJECTS</a>
-              </li>
-              <li>
-                <a>CONTACT</a>
-              </li>
-            </ul>
+              <img
+                src="Logo.jpg"
+                alt="This is my logo"
+                height="180px"
+                width="180px"
+                class="mylogo"
+              />
+            </a>
+            <button
+              class="navbar-toggler collapsed text-dark"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsingNavbarMd"
+              aria-controls="collapsingNavbarMd text-dark"
+              aria-expanded="false"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsingNavbarMd">
+              <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                  <a href="#intro" class="nav-link"
+                    ><h3 class="text-dark">ABOUT</h3></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#work" class="nav-link"
+                    ><h3 class="h text-dark">WORK</h3></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#projects" class="nav-link"
+                    ><h3 class="h text-dark">PROJECTS</h3></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link"
+                    ><h3 class="h text-dark">CONTACT</h3></a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </nav>
+        <div class="mx-5 my-5 px-5 py-5">
+          <div id="intro">
+            <div class="row">
+              <div class="col-md-6 mt-5">
+                <div class="aboutme">
+                  <h1>
+                    Hello! I am <span class="spancolor">Varsha Karinje!</span>
+                  </h1>
+                  <p>
+                    I am a graduate student at Portland State University.<br />
+                    I have my Bachelor's degree in Computer Science and I am
+                    currently pursuing a Master's degree in Computer Science.I
+                    am focusing on completing my track in Software Engineering.
+                    After the completion of my Bachelor's I worked as a Software
+                    Engineer at a Software Company named SLK SOFTWARE. I was
+                    working on Salesforce CRM. This is were I got to learn apex
+                    programming language. Apex is very similar to Java
+                    programming language. I worked on various versions of
+                    Salesforce CRM such as lightning, Visualforce and Lightning
+                    Web Components. After graduating, I am planning to work on
+                    Full Stack Software Development.I believe that learning is a
+                    constant process and Engineering is a field where you can
+                    never stop learning.
+                  </p>
+                  <a href="Varsha_Karinje (2).pdf"
+                    >Click here to view my Resume!</a
+                  >
+                </div>
+              </div>
+              <div class="myimage col-md-5">
+                <img
+                  src="Varsha.jpg"
+                  alt="This is image of Varsha from Waterfront park"
+                  width="400"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </body>
